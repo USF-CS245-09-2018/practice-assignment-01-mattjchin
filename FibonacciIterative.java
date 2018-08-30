@@ -10,8 +10,13 @@ public class FibonacciIterative implements Fibonacci{
 
         int count = 0;
         int count2 = 1;
+        /*
+           Cannot be done for negative numbers
+           Only to show that factorials cannot be done on negative numbers - return -1
+        */
+
         if(n==0)
-            return 0;
+            return -1;
         else if(n<0)
             return n;
         else if(n==1)
